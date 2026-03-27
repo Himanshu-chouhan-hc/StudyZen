@@ -1,0 +1,18 @@
+
+flask==3.0.3              # Backend server banane ke liye (API create karega)
+flask-cors==4.0.1        # React frontend ko backend se connect karne ke liye (CORS fix)
+openai==1.30.5           # OpenAI API (AI brain - response generate karega)
+requests==2.32.3         # External APIs call karne ke liye (weather, news, etc.)
+speechrecognition==3.10.4  # Speech → Text (voice ko text me convert)
+pyttsx3==2.90              # Text → Speech (offline voice output)
+gtts==2.5.1                # Google Text-to-Speech (better voice quality)
+pyautogui==0.9.54        # Mouse, keyboard control (Jarvis type assistant ke liye)
+# 👉 Minimum project ke liye sirf ye chahiye:
+# flask
+# flask-cors
+# openai
+# 👉 Agar tu React me mic use kar raha hai:
+# to speechrecognition backend me zaroori nahi hai
+
+
+# pip install -r requirements.txt
